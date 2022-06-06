@@ -1,5 +1,5 @@
 const env = {
-  client: 'http://localhost:8000'
+  client: 'http://the-residents-club.herokuapp.com/'
 }
 
 const app = require('express')();
@@ -10,10 +10,10 @@ const redis = require("redis");
 const knex = require('knex')({
   client: 'mysql',
   connection: {
-    host: '127.0.0.1',
-    user: 'root',
-    password: '',
-    database: 'the_residents_club',
+    host: 'db4free.net',
+    user: 'theresidentsdb',
+    password: 'wasiameer',
+    database: 'theresidentsdb',
   },
   pool: { min: 0, max: 100 },
 })
