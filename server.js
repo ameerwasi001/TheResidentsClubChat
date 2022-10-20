@@ -1,5 +1,5 @@
 const env = {
-  client: 'http://the-residents-club.herokuapp.com/'
+  client: 'https://theresidentsclub.pk'
 }
 
 const app = require('express')();
